@@ -102,3 +102,26 @@
 //     }
 // }
 // console.log(discount);
+
+// ============= packtice task eight ==========================
+// Ques: 'Bangladesh is a small country';
+// Ans : 'yrtnuoc llams a si hsedalgnaB';
+const sentence = 'Tomar name ki';
+// let reverse = '';
+// for (const letter of sentence) {
+//     reverse = letter + reverse;
+// }
+// console.log(reverse);
+// const rev = sentence.split('').reverse().join('')
+// console.log(rev);
+// ================== javascript module--20 ==================
+// const course = {
+//     sumbect: 'java',
+//     date : '3 april'
+// }
+// function courseDetails(obj){
+//     const x = obj;
+//     const y = x.date;
+//     return y;
+// }
+// console.log(courseDetails(course)); 
