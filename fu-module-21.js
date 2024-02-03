@@ -58,16 +58,17 @@
 // Ans: 5
 
 
-// ================== packrice six ===================
-const arr = [2, 4, 3, 5, 2, 3]
-function duplicate(numbers){
-    let unique = [];
-   for(const item of numbers){
-        if(unique.includes(item) === false){
-            unique.push(item)
-        }
-   }
-   return unique;
-}
-const result = duplicate(arr);
-console.log(result);
+// ================== packrice six ========== IMPORTANT DOPLICATE NUMBER/NAME =========
+
+// const arr = [2, 4, 3, 5, 2, 3]
+// function duplicate(numbers){
+//     let unique = [];
+//    for(const item of numbers){
+//         if(unique.includes(item) === false){
+//             unique.push(item)
+//         }
+//    }
+//    return unique;
+// }
+// const result = duplicate(arr);
+// console.log(result);
