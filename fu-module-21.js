@@ -24,16 +24,17 @@
 // }
 // milesKm(4)
 
-// ========= packtice four ====== PROVLEM ====
+// ========= packtice four ====== Solve ====
 
 // function leapYear(number){
-//     if(number % 4 === 0  && number % 100 !== 0){
-//         console.log('LeapYear');
+//     if(number % 400 === 0  || (number % 100 !== 0  && number % 4 === 0)){
+//        return true;
 //     }else{
-//         console.log('Not LeapYear');
+//         return false;
 //     }
 // }
-// leapYear(2000);
+// const result = leapYear(2000);
+// console.log(result);
 
 
 // ========= packtice five ==========
@@ -70,5 +71,5 @@
 //    }
 //    return unique;
 // }
-// const result = duplicate(arr);
+// const result = duplicate(arr); 
 // console.log(result);
