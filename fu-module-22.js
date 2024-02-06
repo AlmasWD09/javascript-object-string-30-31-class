@@ -127,3 +127,110 @@
 // }
 // const total = discountPrice(3);
 // console.log(total);
+
+
+// ========== packtice seven =============
+// function add(num1, num2){
+//     return num1 + num2;
+// }
+// function sibstre(num1, num2){
+//     return num1 - num2
+// }
+// function multiply(num1 , num2){
+//     return num1 * num2;
+// }
+// function divide(num1, num2){
+//     return num1 / num2;
+// }
+
+// function calcolate(a,b, oparation){
+
+//     if(oparation === 'add'){
+//         const result = add(a,b) //ai khana function call korci /upera ar function ta.
+//         return result;
+//     }
+//     else if(oparation === 'substre'){
+//         const result = sibstre(a,b)
+//         return result;
+//     }
+//     else if(oparation === 'multiply'){
+//         const result = multiply(a,b)
+//         return result;
+//     }
+//     else if(oparation === 'divide'){
+//         const result = divide(a,b)
+//         return result;
+//     }
+//     else{
+//         return "Only 'add', 'substre', 'multiply', 'divide' Operation is allowed "
+//     }
+// }
+// const result2 = calcolate(6, 3, 'add');
+// console.log(result2);
+
+
+// ========= packtice eight ===========
+// function multiply(num1, num2){
+//     // Validation part start ==============
+//     if(typeof(num1) !== 'number' || typeof(num2) !== 'number'){
+//         return "please provide an number"
+//     }
+//     // Validation part end ==============
+//    const mult = num1 * num2;
+//    return mult;
+// }
+// const result3 = multiply(3,'5');
+// console.log(result3);
+
+// ========== packtice nine ==========
+// function fullName(first, second){
+//     // ========== validation part start =============
+//     if(typeof(first) !== 'string'){
+//         return "first name should be an string"
+//     }
+//     else if(typeof(second) !== 'string'){
+//         return "second name should be an string"
+//     }
+//     // ========== validation part end ===============
+//     const full = first+ ' ' +second;
+//     return full;
+// }
+// const result = fullName({name:'almas'},{name:'mia'})
+// console.log(result);
+
+//  ============== packtic ten ==================
+// function productPrice(products){
+//     // ========== validation part start ============
+//     if(typeof(products) !== 'object' || Array.isArray(products) === false){
+//         return "please should be an object"
+//     }
+//     // ========== validation part end ==============
+//     const pabo = products.price
+//     return pabo;
+// }
+// const obj = [22];
+// // const obj = {name:'chulkani', price:300, quantity:2}
+// const result = productPrice(obj);
+// console.log(result);
+
+// ================ packtice eleven =======================
+function details(info){
+    if(typeof(info) !== 'object'){
+        return "input should be an object"
+    }
+    else if(!info.name || !info.age){
+        return "object must contain name and age"
+    }
+    else if(typeof(info.name) !== 'string'){
+        return 'name should be an string'
+    }else if(typeof(info.age) !== 'number'){
+        return "age should be an number"
+    }
+    else if(info.age <= 0){
+        return 'age should be an positive number'
+    }
+    const x = info;
+    return x;
+}
+const obj = details({name:'almas',age:23});
+console.log(obj);
